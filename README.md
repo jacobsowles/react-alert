@@ -1,9 +1,9 @@
 # react-toast
 
-> Toast Notifications (Alerts) for React
+> Toast notifications (alerts) for React
 
-[![travis build](https://img.shields.io/travis/schiehll/react-alert.svg?style=flat-square)](https://travis-ci.org/schiehll/react-alert)
-[![version](https://img.shields.io/npm/v/react-alert.svg?style=flat-square)](http://npm.im/react-alert)
+[![travis build](https://img.shields.io/travis/schiehll/react-toast.svg?style=flat-square)](https://travis-ci.org/jacobsowles/react-toast)
+[![version](https://img.shields.io/npm/v/react-toast.svg?style=flat-square)](http://npm.im/react-toast)
 
 ## Demo
 
@@ -102,7 +102,7 @@ export default withAlert(App)
 
 And that's it!
 
-You can also use it with a render props api:
+You can also use it with a render props API:
 
 ```js
 // App.js
@@ -164,7 +164,7 @@ zIndex: 100
 
 Those options will be applied to all alerts.
 
-## Api
+## API
 
 When you wrap a component using `withAlert` you receive the `alert` prop. Here's all you can do with it:
 
@@ -260,6 +260,6 @@ You can also pass in a component as a message, like this:
 this.props.alert.show(<div style={{ color: 'blue' }}>Some Message</div>)
 ```
 
-## Special Thank-you
+## Special thank-you
 
 `react-toast` is a fork of `react-alert`, written by [schiehll](https://github.com/schiehll). Thank you for all the work you put in.
