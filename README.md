@@ -2,7 +2,7 @@
 
 > Toast notifications (alerts) for React
 
-[![travis build](https://img.shields.io/travis/schiehll/react-toast.svg?style=flat-square)](https://travis-ci.org/jacobsowles/react-toast)
+[![travis build](https://img.shields.io/travis/jacobsowles/react-toast.svg?style=flat-square)](https://travis-ci.org/jacobsowles/react-toast)
 [![version](https://img.shields.io/npm/v/react-toast.svg?style=flat-square)](http://npm.im/react-toast)
 
 ## Demo
