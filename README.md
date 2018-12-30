@@ -259,3 +259,7 @@ You can also pass in a component as a message, like this:
 ```js
 this.props.alert.show(<div style={{ color: 'blue' }}>Some Message</div>)
 ```
+
+## Special Thank-you
+
+`react-toast` is a fork of `react-alert`, written by [schiehll](https://github.com/schiehll). Thank you for all the work you put in.
