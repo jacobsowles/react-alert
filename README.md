@@ -1,6 +1,6 @@
-# react-alert
+# react-toast
 
-> Alerts for React
+> Toast Notifications (Alerts) for React
 
 [![travis build](https://img.shields.io/travis/schiehll/react-alert.svg?style=flat-square)](https://travis-ci.org/schiehll/react-alert)
 [![version](https://img.shields.io/npm/v/react-alert.svg?style=flat-square)](http://npm.im/react-alert)
@@ -12,22 +12,22 @@
 ## Installation
 
 ```bash
-$ npm install --save react-alert
+$ npm install --save react-toast
 ```
 
 ### Templates
 
 You can provide your own alert template if you need to. Otherwise you can just plug in one of the following:
 
-- [Basic](https://github.com/schiehll/react-alert-template-basic)
-- [Dark](https://github.com/schiehll/react-alert-template-oldschool-dark)
+- [Basic](https://github.com/jacobsowles/react-toast-template-basic)
+- [Dark](https://github.com/jacobsowles/react-toast-template-dark)
 
 Feel free to submit a PR with the link for your own template. 
 
 To get started, try installing the basic one:
 
 ```bash
-$ npm install --save react-alert react-alert-template-basic
+$ npm install --save react-toast react-toast-template-basic
 ```
 
 ### Peer dependencies
@@ -51,8 +51,8 @@ First you have to wrap your app with the Provider giving it the alert template a
 // index.js
 import React, { Component } from 'react'
 import { render } from 'react-dom'
-import { Provider as AlertProvider } from 'react-alert'
-import AlertTemplate from 'react-alert-template-basic'
+import { Provider as AlertProvider } from 'react-toast'
+import AlertTemplate from 'react-toast-template-basic'
 import App from './App'
 
 // optional cofiguration
@@ -107,7 +107,7 @@ You can also use it with a render props api:
 ```js
 // App.js
 import React, { Component } from 'react'
-import { Alert } from 'react-alert'
+import { Alert } from 'react-toast'
 
 class App extends Component  {
   render () {
@@ -214,7 +214,7 @@ If you ever need to have an alert just the way you want, you can provide your ow
 // index.js
 import React, { Component } from 'react'
 import { render } from 'react-dom'
-import { Provider as AlertProvider } from 'react-alert'
+import { Provider as AlertProvider } from 'react-toast'
 import App from './App'
 
 class AlertTemplate extends Component {
