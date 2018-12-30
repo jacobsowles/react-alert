@@ -1,22 +1,26 @@
 {
-  "name": "react-alert",
-  "description": "A simple react alert component",
+  "name": "react-toast",
+  "description": "Toast notifications (alerts) for React",
   "version": "4.0.4",
-  "author": "Reinaldo Schiehll <rn.schiehll@gmail.com>",
-  "main": "dist/cjs/react-alert.js",
-  "module": "dist/esm/react-alert.js",
+  "author": "Jacob Sowles <jacob@jacobsowles.com>",
+  "main": "dist/cjs/react-toast.js",
+  "module": "dist/esm/react-toast.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/schiehll/react-alert.git"
+    "url": "https://github.com/jacobsowles/react-toast.git"
   },
   "keywords": [
-    "react",
     "alert",
+    "notification",
+    "react",
     "react-alert",
-    "toaster",
+    "react-component",
+    "react-toast",
     "react-toaster",
-    "react-component"
+    "toast",
+    "toast-notification",
+    "toaster"
   ],
   "scripts": {
     "build": "node ./scripts/build.js",
@@ -38,7 +42,7 @@
     "eslint-plugin-react": "^7.7.0",
     "husky": "^0.14.3",
     "jest-cli": "^22.0.4",
-    "lint-staged": "^7.0.1",
+    "lint-staged": "^7.0.5",
     "pascal-case": "^2.0.1",
     "prettier": "^1.11.1",
     "prop-types": "^15.6.1",
@@ -60,9 +64,6 @@
     "react-transition-group": "^2.3.0"
   },
   "jest": {
-    "collectCoverageFrom": [
-      "src/*.js",
-      "!src/index.js"
-    ]
+    "collectCoverageFrom": ["src/*.js", "!src/index.js"]
   }
 }
