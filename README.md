@@ -1,9 +1,9 @@
-# react-toast
+# react-meerkat
 
-> Toast notifications (alerts) for React
+> Alerts for React
 
-[![travis build](https://img.shields.io/travis/jacobsowles/react-toast.svg?style=flat-square)](https://travis-ci.org/jacobsowles/react-toast)
-[![version](https://img.shields.io/npm/v/react-toast.svg?style=flat-square)](http://npm.im/react-toast)
+[![travis build](https://img.shields.io/travis/jacobsowles/react-meerkat.svg?style=flat-square)](https://travis-ci.org/jacobsowles/react-meerkat)
+[![version](https://img.shields.io/npm/v/react-meerkat.svg?style=flat-square)](http://npm.im/react-meerkat)
 
 ## Demo
 
@@ -12,22 +12,22 @@
 ## Installation
 
 ```bash
-$ npm install --save react-toast
+$ npm install --save react-meerkat
 ```
 
 ### Templates
 
 You can provide your own alert template if you need to. Otherwise you can just plug in one of the following:
 
-- [Basic](https://github.com/jacobsowles/react-toast-template-basic)
-- [Dark](https://github.com/jacobsowles/react-toast-template-dark)
+- [Basic](https://github.com/jacobsowles/react-meerkat-template-basic)
+- [Dark](https://github.com/jacobsowles/react-meerkat-template-dark)
 
 Feel free to submit a PR with the link for your own template. 
 
 To get started, try installing the basic one:
 
 ```bash
-$ npm install --save react-toast react-toast-template-basic
+$ npm install --save react-meerkat react-meerkat-template-basic
 ```
 
 ### Peer dependencies
@@ -51,8 +51,8 @@ First you have to wrap your app with the Provider giving it the alert template a
 // index.js
 import React, { Component } from 'react'
 import { render } from 'react-dom'
-import { Provider as AlertProvider } from 'react-toast'
-import AlertTemplate from 'react-toast-template-basic'
+import { Provider as AlertProvider } from 'react-meerkat'
+import AlertTemplate from 'react-meerkat-template-basic'
 import App from './App'
 
 // optional cofiguration
@@ -81,7 +81,7 @@ Then you wrap the components that you want to be able to show alerts:
 ```js
 // App.js
 import React, { Component } from 'react'
-import { withAlert } from 'react-alert'
+import { withAlert } from 'react-meerkat'
 
 class App extends Component  {
   render () {
@@ -107,7 +107,7 @@ You can also use it with a render props API:
 ```js
 // App.js
 import React, { Component } from 'react'
-import { Alert } from 'react-toast'
+import { Alert } from 'react-meerkat'
 
 class App extends Component  {
   render () {
@@ -214,7 +214,7 @@ If you ever need to have an alert just the way you want, you can provide your ow
 // index.js
 import React, { Component } from 'react'
 import { render } from 'react-dom'
-import { Provider as AlertProvider } from 'react-toast'
+import { Provider as AlertProvider } from 'react-meerkat'
 import App from './App'
 
 class AlertTemplate extends Component {
@@ -262,4 +262,4 @@ this.props.alert.show(<div style={{ color: 'blue' }}>Some Message</div>)
 
 ## Special thank-you
 
-`react-toast` is a fork of `react-alert`, written by [schiehll](https://github.com/schiehll). Thank you for all the work you put in.
+`react-meerkat` is a fork of `react-alert`, written by [schiehll](https://github.com/schiehll). Thank you for all the work you put in.
