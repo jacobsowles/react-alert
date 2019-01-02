@@ -2,7 +2,7 @@
 
 > Alerts for React
 
-[![travis build](https://img.shields.io/travis/jacobsowles/react-meerkat.svg?style=flat-square)](https://travis-ci.org/jacobsowles/react-meerkat)
+[![travis build](https://travis-ci.com/jacobsowles/react-meerkat.svg?branch=master)](https://travis-ci.org/jacobsowles/react-meerkat)
 [![version](https://img.shields.io/npm/v/react-meerkat.svg?style=flat-square)](http://npm.im/react-meerkat)
 
 ## Demo
